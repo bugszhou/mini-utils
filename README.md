@@ -1,2 +1,4 @@
-# mini-utils
-小程序工具方法
+## miniapp-utils
+----------------------------
+author: bugszhou | Email:bugszhou@outlook.com <br>
+description: A lib project with ziu
