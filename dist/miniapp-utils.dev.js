@@ -19,4 +19,4 @@
   Object.defineProperty(exports, '__esModule', { value: true });
 
 }));
-//# sourceMappingURL=miniapp-utils.js.map
+//# sourceMappingURL=miniapp-utils.dev.js.map
