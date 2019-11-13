@@ -15,7 +15,7 @@ export default function updateApp({ reLaunchPage } = { reLaunch: '/pages/index/i
       title: '更新提示',
       content: '新版本已经准备好，是否重启应用？',
       showCancel: false,
-      confirmText: '使用新版本',
+      confirmText: '使用新版',
       success() {
         updateManager.applyUpdate();
       },
