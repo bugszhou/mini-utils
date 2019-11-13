@@ -1,3 +1,13 @@
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/bugszhou/miniapp-utils/compare/v1.1.0...v1.1.1) (2019-11-13)
+
+
+### Bug Fixes
+
+* Modify confirmText ([28965a2](https://github.com/bugszhou/miniapp-utils/commit/28965a2))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/bugszhou/miniapp-utils/compare/v1.0.3...v1.1.0) (2019-10-23)
 
