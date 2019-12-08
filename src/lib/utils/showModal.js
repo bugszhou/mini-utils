@@ -4,7 +4,7 @@ import getGlobal from '../core/getGlobal';
 export default function showModal(opts = {}) {
   const platform = getPlatform();
   if (platform === "aliapp") {
-    return getGlobal().alert(opts);
+    return getGlobal().confirm(opts);
   }
   return getGlobal().showModal(opts);
 }
