@@ -1,3 +1,8 @@
+<a name="1.1.2"></a>
+## [1.1.2](https://github.com/bugszhou/miniapp-utils/compare/v1.0.5...v1.1.2) (2019-12-08)
+
+
+
 <a name="1.0.5"></a>
 ## [1.0.5](https://github.com/bugszhou/miniapp-utils/compare/v1.0.4...v1.0.5) (2019-12-08)
 
