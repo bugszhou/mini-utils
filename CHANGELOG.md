@@ -1,3 +1,13 @@
+<a name="1.0.5"></a>
+## [1.0.5](https://github.com/bugszhou/miniapp-utils/compare/v1.0.4...v1.0.5) (2019-12-08)
+
+
+### Bug Fixes
+
+* ShowModal不兼容 ([b0469f6](https://github.com/bugszhou/miniapp-utils/commit/b0469f6))
+
+
+
 <a name="1.0.4"></a>
 ## [1.0.4](https://github.com/bugszhou/miniapp-utils/compare/v1.1.1...v1.0.4) (2019-11-13)
 
