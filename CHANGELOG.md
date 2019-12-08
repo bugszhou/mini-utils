@@ -1,3 +1,13 @@
+<a name="1.0.7"></a>
+## [1.0.7](https://github.com/bugszhou/miniapp-utils/compare/v1.1.3...v1.0.7) (2019-12-08)
+
+
+### Bug Fixes
+
+* 支付宝小程序alert改为confirm ([cd9c95f](https://github.com/bugszhou/miniapp-utils/commit/cd9c95f))
+
+
+
 <a name="1.1.3"></a>
 ## [1.1.3](https://github.com/bugszhou/miniapp-utils/compare/v1.0.6...v1.1.3) (2019-12-08)
 
