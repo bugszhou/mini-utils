@@ -1,3 +1,13 @@
+<a name="1.0.8"></a>
+## [1.0.8](https://github.com/bugszhou/miniapp-utils/compare/v1.1.4...v1.0.8) (2019-12-08)
+
+
+### Features
+
+* 增加确定按钮判断 ([d9ae86d](https://github.com/bugszhou/miniapp-utils/commit/d9ae86d))
+
+
+
 <a name="1.1.4"></a>
 ## [1.1.4](https://github.com/bugszhou/miniapp-utils/compare/v1.0.7...v1.1.4) (2019-12-08)
 
