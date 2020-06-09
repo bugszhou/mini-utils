@@ -1,3 +1,13 @@
+# [1.2.0](https://github.com/bugszhou/miniapp-utils/compare/v1.1.4...v1.2.0) (2020-06-09)
+
+
+### Features
+
+* 增加更新提示可配置项 ([525bda0](https://github.com/bugszhou/miniapp-utils/commit/525bda0cce3cc45e76e4b9f10e9c8f6be66b727e))
+* 增加确定按钮判断 ([d9ae86d](https://github.com/bugszhou/miniapp-utils/commit/d9ae86d40716ec2228cbf52a6787689c21c754a2))
+
+
+
 <a name="1.1.5"></a>
 ## [1.1.5](https://github.com/bugszhou/miniapp-utils/compare/v1.0.8...v1.1.5) (2019-12-08)
 
