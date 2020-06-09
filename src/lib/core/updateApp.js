@@ -1,9 +1,19 @@
-import getGlobal from './getGlobal';
-import showModal from '../utils/showModal';
+import getGlobal from "./getGlobal";
+import showModal from "../utils/showModal";
 
 const globalObj = getGlobal();
 
-export default function updateApp({ reLaunchPage } = { reLaunch: '/pages/index/index' }) {
+const defaultTitle = "更新提示";
+const defaultContent = "新版本已经准备好，是否重启应用？";
+const defaultCconfirmText = "使用新版";
+
+export default function updateApp(
+  // eslint-disable-next-line object-curly-newline
+  { reLaunchPage, title, content, confirmText, showCancel } = {
+    reLaunch: "/pages/index/index",
+    showCancel: false,
+  },
+) {
   const updateManager = globalObj.getUpdateManager();
 
   updateManager.onCheckForUpdate((res) => {
@@ -13,10 +23,10 @@ export default function updateApp({ reLaunchPage } = { reLaunch: '/pages/index/i
 
   updateManager.onUpdateReady(() => {
     showModal({
-      title: '更新提示',
-      content: '新版本已经准备好，是否重启应用？',
-      showCancel: false,
-      confirmText: '使用新版',
+      title: title || defaultTitle,
+      content: content || defaultContent,
+      showCancel,
+      confirmText: confirmText || defaultCconfirmText,
       success({ confirm }) {
         if (confirm) {
           updateManager.applyUpdate();
