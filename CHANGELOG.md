@@ -1,3 +1,12 @@
+## [1.2.1](https://github.com/bugszhou/miniapp-utils/compare/v1.2.0...v1.2.1) (2020-08-27)
+
+
+### Bug Fixes
+
+* 增加try catch ([e7dd780](https://github.com/bugszhou/miniapp-utils/commit/e7dd780cb551835bc1a4ef66b7b1c5325e760f1c))
+
+
+
 # [1.2.0](https://github.com/bugszhou/miniapp-utils/compare/v1.1.4...v1.2.0) (2020-06-09)
 
 
