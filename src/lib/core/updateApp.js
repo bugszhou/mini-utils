@@ -16,29 +16,33 @@ export default function updateApp(
 ) {
   const updateManager = globalObj.getUpdateManager();
 
-  updateManager.onCheckForUpdate((res) => {
-    // 是否有更新
-    console.log(res.hasUpdate);
-  });
-
-  updateManager.onUpdateReady(() => {
-    showModal({
-      title: title || defaultTitle,
-      content: content || defaultContent,
-      showCancel,
-      confirmText: confirmText || defaultCconfirmText,
-      success({ confirm }) {
-        if (confirm) {
-          updateManager.applyUpdate();
-        }
-      },
+  try {
+    updateManager.onCheckForUpdate((res) => {
+      // 是否有更新
+      console.log(res.hasUpdate);
     });
-  });
 
-  updateManager.onUpdateFailed(() => {
-    // 新版本下载失败
-    globalObj.reLaunch({ url: reLaunchPage });
-  });
+    updateManager.onUpdateReady(() => {
+      showModal({
+        title: title || defaultTitle,
+        content: content || defaultContent,
+        showCancel,
+        confirmText: confirmText || defaultCconfirmText,
+        success({ confirm }) {
+          if (confirm) {
+            updateManager.applyUpdate();
+          }
+        },
+      });
+    });
+
+    updateManager.onUpdateFailed(() => {
+      // 新版本下载失败
+      globalObj.reLaunch({ url: reLaunchPage });
+    });
+  } catch (e) {
+    console.error(e);
+  }
 
   return updateManager;
 }
