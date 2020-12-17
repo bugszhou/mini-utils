@@ -1,3 +1,12 @@
+## [1.2.2](https://github.com/bugszhou/miniapp-utils/compare/v1.2.1...v1.2.2) (2020-12-17)
+
+
+### Features
+
+* 增加typings ([9c4f4c3](https://github.com/bugszhou/miniapp-utils/commit/9c4f4c34d3fcd78e7b8b52c7afe0cd8cd4b61e56))
+
+
+
 ## [1.2.1](https://github.com/bugszhou/miniapp-utils/compare/v1.2.0...v1.2.1) (2020-08-27)
 
 
