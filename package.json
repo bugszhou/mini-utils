@@ -5,6 +5,7 @@
   "author": "bugszhou | Email:bugszhou@outlook.com",
   "main": "index.js",
   "module": "dist/miniapp-utils.esm.js",
+  "types": "typings/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "rollup -c rollup.config.js --watch --environment NODE_ENV:development",
@@ -22,7 +23,8 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.5.4",
-    "@babel/runtime-corejs2": "^7.5.4"
+    "@babel/runtime-corejs2": "^7.5.4",
+    "weapp-api-typings": "^1.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",
