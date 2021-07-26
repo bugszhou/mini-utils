@@ -1,3 +1,12 @@
+## [1.2.5](https://github.com/bugszhou/miniapp-utils/compare/v1.2.4...v1.2.5) (2021-07-26)
+
+
+### Features
+
+* 删除更新失败的执行逻辑 ([c2486e7](https://github.com/bugszhou/miniapp-utils/commit/c2486e700c978d173002515803f5db83a5a21fb1))
+
+
+
 ## [1.2.4](https://github.com/bugszhou/miniapp-utils/compare/v1.2.3...v1.2.4) (2021-07-26)
 
 
