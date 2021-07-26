@@ -9,8 +9,7 @@ const defaultConfirmText = "使用新版";
 
 export default function updateApp(
   // eslint-disable-next-line object-curly-newline
-  { reLaunchPage, title, content, confirmText, showCancel } = {
-    reLaunchPage: "/pages/index/index",
+  { title, content, confirmText, showCancel } = {
     showCancel: false,
   },
 ) {
@@ -36,9 +35,9 @@ export default function updateApp(
       });
     });
 
-    updateManager.onUpdateFailed(() => {
+    updateManager.onUpdateFailed((updateErr) => {
       // 新版本下载失败
-      globalObj.reLaunch({ url: reLaunchPage });
+      console.error("版本更新失败：", updateErr);
     });
   } catch (e) {
     console.error(e);

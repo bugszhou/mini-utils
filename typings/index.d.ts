@@ -1,7 +1,7 @@
 declare namespace IMiUitl {
   interface IUpdataApp {
     /**
-     * 默认重定向到：/pages/index/index
+     * 更新失败后重定向页面，默认重定向到：/pages/index/index
      */
     reLaunchPage?: string;
     /**
