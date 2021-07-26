@@ -1,3 +1,12 @@
+## [1.2.4](https://github.com/bugszhou/miniapp-utils/compare/v1.2.3...v1.2.4) (2021-07-26)
+
+
+### Bug Fixes
+
+* 更新小程序接口取值问题 ([d2ca8cb](https://github.com/bugszhou/miniapp-utils/commit/d2ca8cb62775fa1290c821a3a541c17f17e08ece))
+
+
+
 ## [1.2.3](https://github.com/bugszhou/miniapp-utils/compare/v1.2.2...v1.2.3) (2021-01-14)
 
 
