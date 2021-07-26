@@ -5,12 +5,12 @@ const globalObj = getGlobal();
 
 const defaultTitle = "更新提示";
 const defaultContent = "新版本已经准备好，是否重启应用？";
-const defaultCconfirmText = "使用新版";
+const defaultConfirmText = "使用新版";
 
 export default function updateApp(
   // eslint-disable-next-line object-curly-newline
   { reLaunchPage, title, content, confirmText, showCancel } = {
-    reLaunch: "/pages/index/index",
+    reLaunchPage: "/pages/index/index",
     showCancel: false,
   },
 ) {
@@ -27,7 +27,7 @@ export default function updateApp(
         title: title || defaultTitle,
         content: content || defaultContent,
         showCancel,
-        confirmText: confirmText || defaultCconfirmText,
+        confirmText: confirmText || defaultConfirmText,
         success({ confirm }) {
           if (confirm) {
             updateManager.applyUpdate();
